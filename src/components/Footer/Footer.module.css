@@ -1,0 +1,63 @@
+.footer {
+  padding: 0 4%;
+}
+.snsLinks {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1em;
+}
+.snsLinks li {
+  margin-right: 15px;
+  width: 36px;
+  text-align: center;
+}
+.snsLinks a {
+  color: #fff;
+}
+
+.memberLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 14px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.memberLinks li {
+  flex: 0 0 25%;
+  margin-bottom: 16px;
+}
+.memberLinks a {
+  font-size: 13px;
+  color: gray;
+  text-decoration: none;
+}
+.memberLinks a:hover {
+  text-decoration: underline;
+}
+
+.btnServiceCode {
+  margin-bottom: 20px;
+}
+.btnServiceCode button {
+  padding: 0;
+  color: gray;
+  border: 1px solid gray;
+  background-color: transparent;
+  padding: 0.5em;
+  font-size: 13px;
+  cursor: pointer;
+}
+.btnServiceCode button:hover {
+  color: #fff;
+}
+
+.copyright {
+  color: gray;
+  font-size: 11px;
+  margin-bottom: 15px;
+}
+.copyright div {
+  margin-top: 4px;
+}
